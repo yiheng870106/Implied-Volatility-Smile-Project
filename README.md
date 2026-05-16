@@ -16,5 +16,5 @@ This project analyzes SPY option prices and extracts implied volatility using th
 - I selected two expiration dates, 2026-06-12 and 2026-08-21, with the observation date set to 2026-05-13. The implied volatility curves for both call and put options are not constant across strikes. One possible explanation is that investors anticipate potential market downturns, which increases the demand for out-of-the-money put options. This higher demand raises put prices and therefore increases their implied volatilities. Through put-call parity, this can also affect call prices.
 - I also find that the implied volatility curve becomes flatter for longer-maturity options. This suggests that the sensitivity of implied volatility to strike price is weaker for longer-dated options than for shorter-dated options.
 
-![Call option smile/skew](Call option smile:skew.png)
-![Put option smile/skew](Put option smile:skew.png)
+![Call_option_smile/skew](Call_option_smile_skew.png)
+![Put_option_smile/skew](Put_option_smile_skew.png)
